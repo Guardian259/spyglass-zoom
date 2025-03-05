@@ -24,12 +24,12 @@ public abstract class GameRendererMixin {
         }
     }
 
-    @Accessor(value = "fov")
+    @Accessor(value = "fovModifier")
     public abstract void setFovMultiplier(float fov);
 
-    @Accessor(value = "fov")
+    @Accessor(value = "fovModifier")
     public abstract float getFovMultiplier();
 
-    @Accessor(value = "oldFov")
+    @Accessor(value = "oldFovModifier")
     public abstract void setLastFovMultiplier(float fov);
 }
