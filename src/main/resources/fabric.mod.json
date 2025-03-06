@@ -7,9 +7,9 @@
   "description": "A mod that lets you adjust the zoom on the spyglass.",
   "author": "cobrasrock",
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/spyglass-zoom",
-    "sources": "https://github.com/cobrasrock/spyglass-zoom",
-    "issues": "https://github.com/cobrasrock/spyglass-zoom/issues"
+    "homepage": "https://modrinth.com/mod/spyzoom-updated",
+    "sources": "https://github.com/Guardian259/spyglass-zoom",
+    "issues": "https://github.com/Guardian259/spyglass-zoom/issues"
   },
 
   "license": "GNU-LGPL-3",
