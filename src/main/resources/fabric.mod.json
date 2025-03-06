@@ -5,7 +5,7 @@
 
   "name": "Spyglass Zoom",
   "description": "A mod that lets you adjust the zoom on the spyglass.",
-  "author": "cobrasrock",
+  "authors": ["guardian", "cobrasrock"],
   "contact": {
     "homepage": "https://modrinth.com/mod/spyzoom-updated",
     "sources": "https://github.com/Guardian259/spyglass-zoom",
