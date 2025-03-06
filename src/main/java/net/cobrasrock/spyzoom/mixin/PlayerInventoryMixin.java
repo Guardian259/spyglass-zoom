@@ -17,8 +17,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(Inventory.class)
 public class PlayerInventoryMixin {
 	@Shadow @Final public Player player;
-	@Shadow public int selected;
-	@Inject(at = @At("HEAD"), method = "setSelectedHotbarSlot", cancellable = true)
+	@Shadow private int selected;
+	@Inject(at = @At("HEAD"), method = "setSelectedSlot", cancellable = true)
 	private void setSelectedHotbarSlot(int scrollAmount, CallbackInfo info) {
 		if (SpyZoom.instance.player == null)
 			return;
